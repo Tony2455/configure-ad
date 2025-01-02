@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=AD 1 12.23.44 PM.png/>
 </p>
 <p>
 Configuring Active Directory (AD) in Azure begins with setting up the infrastructure. Start by provisioning two virtual machines (VMs) in Azure: one for the Domain Controller running Windows Server 2022 and another as a client machine with Windows 10. Ensure both VMs are connected to a common virtual network and assign static private IP addresses for consistent connectivity. On the Domain Controller, install the Active Directory Domain Services (AD DS) role through the Server Manager. This step establishes the foundation for deploying AD by enabling the necessary features and ensuring the server is ready to be promoted to a domain controller.
