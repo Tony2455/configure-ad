@@ -37,7 +37,7 @@ Configuring Active Directory (AD) in Azure begins with setting up the infrastruc
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="AD 1 12.23.44 PM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once the infrastructure is ready, deploy Active Directory by promoting the server to a domain controller. During the promotion process, create a new forest and specify the domain name (e.g., mydomain.local). After a restart, verify that the AD installation is successful by accessing the Active Directory Users and Computers (ADUC) management console. Additionally, test the DNS functionality to ensure that the domain controller can resolve names within the domain, as DNS plays a crucial role in AD operations. This stage establishes a functional AD environment that supports user management and authentication.
