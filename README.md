@@ -45,7 +45,7 @@ Once the infrastructure is ready, deploy Active Directory by promoting the serve
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="AD4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 With AD deployed, focus on creating users and implementing policies. Use PowerShell to create user accounts efficiently, either individually or through scripts for bulk operations. Once users are created, configure Group Policies via the Group Policy Management Console (GPMC) to enforce security settings, manage permissions, or deploy software across the domain. Apply the policies by running the gpupdate /force command on client machines, and test the configurations to ensure they work as intended. These steps provide centralized control over the domain, enhancing security and streamlining administrative tasks.
